@@ -10,6 +10,7 @@ const { connection } = require("./config/db")
 const {statusRouter} = require("./route/statusRoute")
 app.use(express.json())
 
+///fbewjbfjhewbfhejwbnfewij
 
 app.get("/", (req, res) => {
 
