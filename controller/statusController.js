@@ -20,7 +20,7 @@ const status = async (req,res)=>{
 
     } catch (error) {
 
-        es.status(500).send({ status: "2", msg: "Internal server error", data: [] })
+        res.status(500).send({ status: "2", msg: "Internal server error", data: [] })
     }
 }
 
